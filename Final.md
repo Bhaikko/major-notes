@@ -10,6 +10,9 @@
 * Princiapl curvature estimations   - Ritika    1202
 *Use PCL library*
 
+### check this link :
+* https://pcl.readthedocs.io/projects/tutorials/en/master/how_features_work.html#how-3d-features-work
+
 ### Global Features (Ritika)
 * vertex density                    - avaiable in base 1
 * Spherical harmonic
