@@ -1,0 +1,70 @@
+https://dl.acm.org/doi/fullHtml/10.1145/3472749.3474809
+
+
+https://arxiv.org/pdf/2005.00559.pdf
+
+Mine Paper 1
+### REFERENCES ###
+Pinocchio Method: Baran and Popovic 2007
+Shapiro et al 2014
+Bharaj et al 2011
+Miller et al 2010
+Pan el al 2009
+
+### NOTES ###
+SCAPE model used to fit input human body scan and 
+rig the input scan by transferring the high quality rigging from SCAPE model.
+Limited to human bodies
+
+Does Rigging and Interactive avatar reshaping
+Too much linear algebra ig.
+
+Limited to humanoids only, not even human-like characters
+
+Input: Set of Vertices, Triangles and Joints
+
+Mine Paper 2
+
+### NOTES ###
+Skeleton is cycle free graph whose nodes are joints and bones are edges
+Considers modelling and rigging as same step. Unify the step and introduce algo for sketch based modelling by parts that mainatain a rigged mesh at all times
+
+generates rigged mesh, surface skeleton and skin weights for each part and update it as parts are merged
+
+uses pinocchio too. Uses modified douglas peucker algo for rigging(Cylindrical douglas peukar)
+douglas finds salient points of the chordal axis.
+
+uses OpenMesh and CHOLMOD
+Nothing really special in future work
+
+Mine Paper 3 
+### Notes ###
+curve skeletons as geometric input feature to stacked hourglass network
+medial surface of object mesh used
+
+uses Volumetics CNNs with Stacked hourglass and introducing knowledge as an additonal geometric input
+
+pose estimation closely correlates to pose estimation
+
+model dataset mentioned in the paper. The skeleton for each model obtained from blender plugin (Section 4)
+
+### FUTURE WORK ###
+More accurate representation of the mesh topology should provide models with
+a better understanding of the medial surface, which in turn will make deep learning models
+such as the Stacked Hourglass Network more accurate.
+
+Suggesting k-fold cross validation
+
+.. Didnt read the background and related work section
+Volumetric CNNs exist for 3d data
+
+output of Network joined using Prim's algo
+
+input as voxelized mesh using Binvox
+
+### Reference ###
+Xu et al using VOlumetric CNNS with Stacked hourglass networks
+
+
+
+
