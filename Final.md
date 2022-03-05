@@ -12,6 +12,7 @@
 
 ### check this link :
 * https://pcl.readthedocs.io/projects/tutorials/en/master/how_features_work.html#how-3d-features-work
+* https://github.com/marcomusy/vedo
 
 ### Global Features (Ritika)
 * vertex density                    - avaiable in base 1
