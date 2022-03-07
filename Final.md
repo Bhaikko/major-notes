@@ -1,18 +1,16 @@
 ## Final inputs
 ### Local Features (Sarthak)
-* harris 3D     
-* heat kernel                                   
+// * harris 3D     
+// * heat kernel                                   
 * SURF 3D
 * Shape index
 * Curvature index
 * Mean curvature                    - Ritika    1202
 * Normal distribution               - Ritika    1202
-* Princiapl curvature estimations   - Ritika    1202
+// * Princiapl curvature estimations   - Ritika    1202
 *Use PCL library*
 
-### check this link :
-* https://pcl.readthedocs.io/projects/tutorials/en/master/how_features_work.html#how-3d-features-work
-* https://github.com/marcomusy/vedo
+
 
 ### Global Features (Ritika)
 * vertex density               - avaiable in base 1
@@ -64,10 +62,13 @@ https://stackoverflow.com/questions/37896090/how-to-represent-a-3d-obj-object-as
 Mean curvature
 https://github.com/cuge1995/curvature-calculation-python
 https://github.com/alecjacobson/geometry-processing-curvature
+https://github.com/sujithTSR/surface-curvature
 
 ```
 
+## 3D Library
 ```
-1202 paper
-https://sourceforge.net/projects/meshprocessing/ 
+  https://sourceforge.net/projects/meshprocessing/ 
+  https://github.com/marcomusy/vedo
+  https://pcl.readthedocs.io/projects/tutorials/en/master/how_features_work.html#how-3d-features-work
 ```
